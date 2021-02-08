@@ -1,176 +1,27 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,700,400,400italic");
-
-@font-face {
-  font-family: "Font Awesome 5 Brands-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.animaapp.com/FontAwesome5Brands-Regular") format("truetype");
-}
-
-.fontawesome5brands-regular-normal-white-24px {
-  color: white;
-  font-family: "Font Awesome 5 Brands-Regular", Helvetica, Arial, serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-}
-.home {
-  align-items: flex-start;
-  background-color: white;
-  display: flex;
-  height: 1080px;
-  padding: 0 339.8px;
-  width: 1920px;
-}
-.home .auto-flex {
-  align-items: center;
-  display: flex;
-  min-width: 195px;
-}
-.home .auto-flex1 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  margin-top: 64.84px;
-  min-height: 666px;
-  width: 712px;
-}
-.home .baixar-agora {
-  letter-spacing: 0px;
-  line-height: 38.4px;
-  margin-left: 8px;
-  min-height: 38px;
-  min-width: 161px;
-  white-space: nowrap;
-}
-.home .frame-2 {
-  align-items: center;
-  background-color: var(--alto);
-  border-radius: 16px;
-  display: flex;
-  height: 70px;
-  justify-content: flex-end;
-  margin-left: 0.16px;
-  margin-top: 45px;
-  min-width: 225px;
-  padding: 0 14px;
-}
-.home .home2-1 {
-  height: 652px;
-  left: 171px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 326px;
-}
-.home .overlap-group {
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6021a392dc7f7bc238ee74d1/releases/6021a41433b72bb88a66f163/img/union@2x.svg);
-  background-size: 100% 100%;
-  height: 64px;
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: #313131;
   position: relative;
-  width: 64px;
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  background-image: url("img/fundo.png");
 }
-.home .overlap-group1 {
-  height: 735px;
-  margin-left: 28px;
-  margin-top: 213.92px;
-  position: relative;
-  width: 497px;
-}
-.home .pico {
-  height: 651px;
-  left: 0px;
-  position: absolute;
-  top: 84px;
-  width: 325px;
-}
-.home .picos {
-  height: 33px;
-  margin-bottom: 0.22px;
-  margin-left: 23px;
-  width: 107px;
-}
-.home .polygon-1 {
-  height: 26px;
-  left: 21px;
-  position: absolute;
-  top: 16px;
-  width: 23px;
-}
-.home .rectangle-12 {
-  background-color: white;
-  height: 20px;
-  left: 21px;
-  position: absolute;
-  top: 27px;
-  width: 6px;
-}
-.home .text-1 {
-  height: 72px;
-  letter-spacing: -0.5px;
-  line-height: 72px;
-  margin-left: 0.16px;
-  margin-top: 220px;
-  min-height: 72px;
-  white-space: nowrap;
-}
-.home .text-2 {
-  letter-spacing: 0px;
-  line-height: 38.4px;
-  margin-left: 0.16px;
-  margin-top: 45px;
-  min-height: 114px;
-  width: 712px;
-}
-.home .text-3 {
-  letter-spacing: 0px;
-  line-height: 25.6px;
-  margin-left: 0.16px;
-  margin-top: 10px;
-  min-height: 26px;
-  white-space: nowrap;
-}
-.home .text-4 {
-  letter-spacing: 0px;
-  min-height: 28px;
-  min-width: 26px;
-}
-.montserrat-bold-white-24px {
-  color: white;
-  font-family: "Montserrat", Helvetica, Arial, serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-}
-.montserrat-light-ship-gray-59px {
-  color: var(--ship-gray);
-  font-family: "Montserrat", Helvetica, Arial, serif;
-  font-size: 59px;
-  font-style: normal;
+h1{
   font-weight: 300;
+  font-size: 52px;
+  line-height: 72px;
 }
-.montserrat-normal-black-16px {
-  color: var(--black-2);
-  font-family: "Montserrat", Helvetica, Arial, serif;
+p{
+  font-size: 20px;
+  line-height: 160%;
+  padding-right: 40px;
+}
+.legenda{
   font-size: 16px;
+  line-height: 160%;
   font-style: italic;
-  font-weight: 400;
-}
-.montserrat-normal-black-24px {
-  color: var(--black);
-  font-family: "Montserrat", Helvetica, Arial, serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-}
-:root {
-  --alto: rgba(219, 219, 219, 1);
-  --black: rgba(0, 0, 0, 0.6);
-  --black-2: rgba(0, 0, 0, 0.87);
-  --ship-gray: rgba(62, 62, 62, 1);
-}
-.valign-text-middle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
